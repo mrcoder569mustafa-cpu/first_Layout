@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fefefe;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+#header {
+  background-color: white;
+  border-bottom: 3px solid #f1071b;
+}
+#sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo h1 {
+  font-size: 30px;
+  font-weight: bold;
+ color: #0b0b0b;
+}
+#logo h1 span {
+  color: #ee1730;
+}
+
+#navbar ul {
+  display: flex;
+  gap: 30px;
+}
+#navbar ul li {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#right-btn button {
+  background-color: #d10d45;
+  color: white;
+  font-size: 18px;
+  padding: 5px 30px;
+  border: 2px solid #d10d45;
+  
+}
+
+.container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.learn-web-development {
+  display: flex;
+  background-color: white;
+  border: 4px dashed #c3c6d7;
+  border-radius: 5px;
+
+ 
+  margin-top: 60px;
+  
+  padding: 20px;
+  
+}
+
+.learn-web-development-second-child img {
+  max-width: 700px;
+}
+
+.learn-web-development-first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  align-items: flex-start;
+}
+.learn-web-development-first-child h2 {
+  font-size: 32px;
+}
+.learn-web-development-first-child p {
+  font-size: 16px;
+}
+.learn-web-development-first-child p span {
+  color: #004ac6;
+  font-weight: bold;}
+.learn-web-development-first-child button {
+  background-color: #d10d45;
+  font-size: 14px;
+  color: white;
+  border: 1px solid #e20947;
+  padding: 10px 40px;
+  
+}
+
+#about-section {
+  gap: 40px;
+  background-color: rgb(243, 232, 232);
+}
