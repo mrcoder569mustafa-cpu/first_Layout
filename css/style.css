@@ -15,8 +15,10 @@ img {
 
 
 #header {
+  margin-bottom: 20px;
   background-color: white;
   border-bottom: 3px solid #f1071b;
+  padding: 10px 40px;
 }
 #sub-header {
   display: flex;
